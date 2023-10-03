@@ -3,8 +3,8 @@ import 'package:intl/intl.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 import 'package:test/widgets/chart_card.dart';
 
-class ColumnChart extends StatelessWidget {
-  ColumnChart({
+class ColumnSync extends StatelessWidget {
+  ColumnSync({
     super.key,
   });
 

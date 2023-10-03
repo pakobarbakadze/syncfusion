@@ -2,8 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:syncfusion_flutter_charts/charts.dart';
 import 'package:test/widgets/chart_card.dart';
 
-class DoghnutChart extends StatelessWidget {
-  const DoghnutChart({super.key});
+class DoghnutSync extends StatelessWidget {
+  const DoghnutSync({super.key});
 
   @override
   Widget build(BuildContext context) {
