@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:test/widgets/Syncfusion/cartesian_Sync.dart';
 import 'package:test/widgets/Syncfusion/column_Sync.dart';
 import 'package:test/widgets/Syncfusion/doghnut_Sync.dart';
+import 'package:test/widgets/metric.dart';
 
 class SyncScreen extends StatelessWidget {
   const SyncScreen({super.key});
@@ -11,9 +12,10 @@ class SyncScreen extends StatelessWidget {
     return SingleChildScrollView(
       child: Column(
         children: [
+          const Metric(),
           ColumnSync(),
           const DoghnutSync(),
-          const CartesianSync(),
+          CartesianSync(),
         ],
       ),
     );
