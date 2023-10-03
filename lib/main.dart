@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:test/screen.dart';
-
-import 'package:test/widgets/fl_chart.dart';
+import 'package:test/fl_screen.dart';
+import 'package:test/sync_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -39,7 +38,7 @@ class _MyAppState extends State<MyApp> {
             )
           ],
         ),
-        body: isSyncFusion ? const Screen() : const BarChartSample2(),
+        body: isSyncFusion ? const SyncScreen() : const FlScreen(),
       ),
     );
   }
