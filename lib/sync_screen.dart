@@ -14,8 +14,8 @@ class SyncScreen extends StatelessWidget {
         children: [
           const Metric(),
           ColumnSync(),
-          const DoghnutSync(),
           CartesianSync(),
+          const DoghnutSync(),
         ],
       ),
     );

@@ -31,9 +31,8 @@ class DoghnutSync extends StatelessWidget {
           series: <CircularSeries>[
             DoughnutSeries<ChartData, String>(
               dataSource: chartData,
-              // cornerStyle: CornerStyle.endCurve,
               innerRadius: "70%",
-              // explode: true,
+              explode: true,
               dataLabelSettings: const DataLabelSettings(
                 isVisible: true,
                 labelPosition: ChartDataLabelPosition.outside,
